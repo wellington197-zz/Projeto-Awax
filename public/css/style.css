@@ -1085,20 +1085,23 @@ CSS DE ÁREAS ESPECÍFICAS
         margin-bottom:0;
     }
 
-    footer {
-        background-color: #000;
+    footer{
+        background-color:#000;
         padding: 20px;
        }
-       .footer-area {
+    .footer-area{
+        background-color: #127cb4;
         max-width: 1140px;
         margin: auto;
         height: 260px;
         color: #FFF;
         display: flex;
+        flex-direction: column;
         text-align: center;
         padding: 15px;
        }
        .footer-redesocial {
+           background-color: #B28756;
         flex: 1;
        }
        .footer-texto {
@@ -1125,4 +1128,4 @@ CSS DE ÁREAS ESPECÍFICAS
         font-size: 15px;
         text-align: center;
        }
-}
+    }
