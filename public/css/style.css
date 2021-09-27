@@ -19,6 +19,7 @@ body{
 header{
     height:100px;
     width: 100%;
+    background-color: #000;
     color: #fff;
 }
 
@@ -903,3 +904,4 @@ CSS DE ÁREAS ESPECÍFICAS
         margin-top: 30px;
         border-radius: 20px;
     }
+}
