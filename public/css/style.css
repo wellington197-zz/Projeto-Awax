@@ -23,6 +23,10 @@ header{
     color: #fff;
 }
 
+nav{
+    display: block;
+}
+
 .header{
     max-width: 1140px;
     height:100px;
@@ -827,18 +831,14 @@ CSS DE ÁREAS ESPECÍFICAS
 .section-map--info-item-img img {
     width:15px;
     height:auto;
-}
-
-
-  
-    
+}   
 
       /* área footer */
-    footer {
+footer{
         background-color: #000;
         padding: 20px;
-    }
-    .footer--area {
+}
+.footer--area {
         max-width: 1140px;
         margin: auto;
         color: #FFF;
@@ -903,5 +903,34 @@ CSS DE ÁREAS ESPECÍFICAS
         padding: 10px 30px;
         margin-top: 30px;
         border-radius: 20px;
+    }
+
+
+/* Responsividadde para TABLET*/
+
+@media only screen and (min-width:450px) and (max-width:900px){
+    nav{
+        position: absolute;
+        z-index: 99;
+        background-color: rgba(0,0,0,0.9);
+        width: 70vw;
+        height: calc(100vh - 100px);
+        top: 100px;
+        right: 0;
+    }
+
+    .menu ul{
+        flex-direction: column;
+    }
+    .menu li a {
+        font-weight: bold;
+        height: 80px;
+        font-size: 27px;
+        margin-left: 50px;
+        border: 0;
+    }
+    .menu li.active a{
+        border:0;
+        color: var(--bege);
     }
 }
