@@ -909,6 +909,10 @@ footer{
 /* Responsividadde para TABLET*/
 
 @media only screen and (min-width:450px) and (max-width:900px){
+
+    .logoimg{
+        margin-left:40px;
+    }
     nav{
         position: absolute;
         z-index: 99;
@@ -933,4 +937,27 @@ footer{
         border:0;
         color: var(--bege);
     }
+
+    .section-abautus{
+        flex-direction: column;
+    }
+
+    .section-abautus--left{
+        margin-left: 30px;
+        margin-right:30px;
+        margin-bottom: 30px;
+
+    }
+    .section-abautus--right{
+        width: auto;
+    }
+
+    .serction-service{
+        min-width:50%;
+        margin-bottom: 30px;
+    }
+    .section-service:first-child{
+        border-left: 0;
+    }
+
 }
