@@ -952,14 +952,33 @@ footer{
         width: auto;
     }
 
-    .serction-service{
+    .section-services{
+        flex-wrap: wrap;
+    }
+
+    .section-service{
         min-width:50%;
         margin-bottom: 30px;
     }
     .section-service:first-child{
         border-left: 0;
 
-        
+    }
+
+    .section-team{
+        max-width: 580px;
+    }
+
+    .section-map{
+       padding-left: 30px;
+       padding-right: 30px;
+    }
+
+   .section-map--area{
+       width: auto;
+   }
+    .section-map--info{
+        width: auto;
     }
 
 }
