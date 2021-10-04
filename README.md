@@ -29,9 +29,8 @@ Também será aplicado uma Pipeline de integração continua e testes da aplica�
 - Criação do clone da LANDING PAGE;
 - Aplicação de conceitos em FLEXBOX;
 - Estilização em HTML5 e CSS3;
-- Estilização em HTML5 e CSS3;
-- Subindo projeto para GitHub;
-- Aplicação de uma Pipeline DevOps com a aplicação do BUILD pelo TRAVIS e Deploy com Heroku.
+- Criação do projeto em repositório no GitHub;
+- Aplicação de uma Pipeline DevOps com a aplicação do BUILD pelo TRAVIS e Deploy com netfly.
 
 
 ### Atividades realizadas 
@@ -54,7 +53,6 @@ Também será aplicado uma Pipeline de integração continua e testes da aplica�
 ## Como está andamento do projeto.
 
 > Status do Projeto: Concluido :heavy_check_mark:</br>
-> Status do Projeto: Em desenvolvimento :warning:
 
 ## Linguagens e libs utilizadas :books:
     * LINGUAGENS
@@ -65,13 +63,13 @@ Também será aplicado uma Pipeline de integração continua e testes da aplica�
     * METODOLOGIA
         - Flexbox
         - RESPONSIVIDADE
-        - 
+        
 
     * FERRAMENTAS
         - GitHub
-        - GitPages
         - Visual Stúdio
         - Travis
+        - Netfly
 
 ### Conexão da Pipeline TRAVIS e HEROKU
 - Digite Heroku Login no seu terminal

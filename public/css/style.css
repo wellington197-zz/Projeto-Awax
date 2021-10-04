@@ -75,6 +75,8 @@ nav{
     color:#ccc;
 }
 
+
+
 /*Área do banner*/
 .banner{
     height: calc(100vh - 100px);
@@ -905,6 +907,9 @@ footer{
         border-radius: 20px;
     }
 
+    .menu-opened{
+        display: none;
+    }
 
 /* Responsividadde para TABLET*/
 
@@ -913,6 +918,14 @@ footer{
     .logoimg{
         margin-left:40px;
     }
+
+    .menu-opened{
+        display: block;
+        width: 45px;
+        margin-right: 30px;
+    }
+
+
     nav{
         position: absolute;
         z-index: 99;
@@ -967,6 +980,119 @@ footer{
 
     .section-team{
         max-width: 580px;
+    }
+
+    .section-map{
+       padding-left: 30px;
+       padding-right: 30px;
+    }
+
+   .section-map--area{
+       width: auto;
+   }
+    .section-map--info{
+        width: auto;
+    }
+
+}
+
+/*Responsividade do Iphone X*/
+@media only screen and (max-width:450px){
+
+    .logoimg{
+        margin-left:30px;
+    }
+
+    .menu-opened{
+        display: block;
+        width: 45px;
+        margin-right: 30px;
+    }
+
+
+    nav{
+        position: absolute;
+        z-index: 99;
+        background-color: rgba(0,0,0,0.9);
+        width: 80vw;
+        height: calc(100vh - 100px);
+        top: 100px;
+        right: 0;
+    }
+
+    .menu ul{
+        flex-direction: column;
+    }
+    .menu li a {
+        font-weight: bold;
+        height: 60px;
+        font-size: 20px;
+        margin-left: 30px;
+        border: 0;
+    }
+    .menu li.active a{
+        border:0;
+        color: var(--bege);
+    }
+
+    .banner h1{
+        font-size: 30px;
+        
+    }
+
+    .banner h{
+        font-size: 25px;
+        
+    }
+
+    .section-abautus{
+        flex-direction: column;
+    }
+
+    .section-abautus--left{
+        margin-left: 30px;
+        margin-right:30px;
+        margin-bottom: 30px;
+
+    }
+    .section-abautus--right{
+        width: auto;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .section-abautus--right img{
+        width: 100%;
+
+    }
+    .section-services{
+        flex-wrap: wrap;
+    }
+
+    .section-service{
+        min-width:100%;
+        margin-bottom: 30px;
+    }
+    .section-service:first-child{
+        border-left: 0;
+
+    }
+
+   
+    .section-projects--filters{
+        margin-left: 30px;
+        margin-right: 30px;
+
+    }
+    .section-projects--photo{
+        width: 320px;
+    }
+    .section-projects--photoarea{
+        width: 300px;
+        height: 190px;
+    }
+
+    .section-team{
+        max-width: 280px;
     }
 
     .section-map{
